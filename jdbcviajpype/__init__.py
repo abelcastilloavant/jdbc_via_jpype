@@ -1,10 +1,10 @@
-from jdbc.java_conn import (
+from jdbcviajpype.java_conn import (
     initialize_jvm,
     java_connection,
 )
 
-from jdbc.converters import get_converters
-from jdbc.dbapi import Connection
+from jdbcviajpype.converters import get_converters
+from jdbcviajpype.dbapi import Connection
 
 
 def _listify(obj):

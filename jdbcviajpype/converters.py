@@ -1,4 +1,4 @@
-from jdbc.java_conn import get_types_map
+from jdbcviajpype.java_conn import get_types_map
 from datetime import datetime
 
 

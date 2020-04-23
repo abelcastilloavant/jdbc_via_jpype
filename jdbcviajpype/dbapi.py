@@ -1,7 +1,7 @@
 import warnings
 
-from jdbc.java_conn import _handle_sql_exception
-from jdbc.errors import (
+from jdbcviajpype.java_conn import _handle_sql_exception
+from jdbcviajpype.errors import (
     Error,
     InterfaceError,
     DatabaseError,

@@ -1,7 +1,7 @@
 import os
 import sys
 import jpype
-from jdbc.errors import (
+from jdbcviajpype.errors import (
     DatabaseError,
     InterfaceError,
 )
